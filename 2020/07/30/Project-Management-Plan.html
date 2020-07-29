@@ -1,0 +1,1472 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Project Management Plan | MikeOwino Blog</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Project Management Plan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="SE 4351.001 Software Requirements" />
+<meta property="og:description" content="SE 4351.001 Software Requirements" />
+<link rel="canonical" href="https://mikeowino.com/blog/2020/07/30/Project-Management-Plan.html" />
+<meta property="og:url" content="https://mikeowino.com/blog/2020/07/30/Project-Management-Plan.html" />
+<meta property="og:site_name" content="MikeOwino Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-07-30T00:00:00-05:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://mikeowino.com/blog/2020/07/30/Project-Management-Plan.html"},"description":"SE 4351.001 Software Requirements","@type":"BlogPosting","url":"https://mikeowino.com/blog/2020/07/30/Project-Management-Plan.html","headline":"Project Management Plan","dateModified":"2020-07-30T00:00:00-05:00","datePublished":"2020-07-30T00:00:00-05:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://mikeowino.com/blog/feed.xml" title="MikeOwino Blog" /><!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-57531313-5','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+<link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Project Management Plan | MikeOwino Blog</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Project Management Plan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="SE 4351.001 Software Requirements" />
+<meta property="og:description" content="SE 4351.001 Software Requirements" />
+<link rel="canonical" href="https://mikeowino.com/blog/2020/07/30/Project-Management-Plan.html" />
+<meta property="og:url" content="https://mikeowino.com/blog/2020/07/30/Project-Management-Plan.html" />
+<meta property="og:site_name" content="MikeOwino Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-07-30T00:00:00-05:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://mikeowino.com/blog/2020/07/30/Project-Management-Plan.html"},"description":"SE 4351.001 Software Requirements","@type":"BlogPosting","url":"https://mikeowino.com/blog/2020/07/30/Project-Management-Plan.html","headline":"Project Management Plan","dateModified":"2020-07-30T00:00:00-05:00","datePublished":"2020-07-30T00:00:00-05:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://mikeowino.com/blog/feed.xml" title="MikeOwino Blog" /><!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-57531313-5','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">MikeOwino Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/about/">About Me</a><a class="page-link" href="/blog/search/">Search</a><a class="page-link" href="/blog/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Project Management Plan</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-07-30T00:00:00-05:00" itemprop="datePublished">
+        Jul 30, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      16 min read
+    
+</span></p>
+
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>SE 4351.001 Software Requirements</p>
+
+<p>Fall 2014</p>
+
+<p>Project Management Plan</p>
+
+<p><img src="https://mikeowino.com/blog/assets/img/2020-07-30-Project-Management-Plan/media/image1.png" alt="" /></p>
+
+<p><a href="http://www.utdallas.edu/~axp120531/SE4352/"><em>http://www.utdallas.edu/~axp120531/SE4352/</em></a></p>
+
+<p><strong>Team Members</strong></p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>Joe Brown</p>
+<p><em>jsb100120</em></p></td>
+<td><p>Desmond Lee</p>
+<p><em>dcl102020</em></p></td>
+<td><p>Giuseppe Mastrolorenzo</p>
+<p><em>mxg106320</em></p></td>
+<td><p>Michael Raibick</p>
+<p><em>mxr110530</em></p></td>
+</tr>
+<tr class="even">
+<td><p>Ryan Chen</p>
+<p><em>rxc109520</em></p></td>
+<td><p>Robert Lockwood</p>
+<p><em>rll092020</em></p></td>
+<td><p>Blessing Osakue</p>
+<p><em>boo102020</em></p></td>
+<td><p>Oscar Reyes</p>
+<p><em>oxr110330</em></p></td>
+</tr>
+<tr class="odd">
+<td><p>Travis Chun</p>
+<p><em>twc101020</em></p></td>
+<td><p>Michael Mugger</p>
+<p><em>mxm121531</em></p></td>
+<td><p>Andrew Pohlmann</p>
+<p><em>axp120531</em></p></td>
+<td><p>James Williams</p>
+<p><em>jxw110730</em></p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td><p>Bennilyn Quek</p>
+<p><em>bxq120430</em></p></td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Revision History</strong></p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><strong>Version</strong></td>
+<td><strong>Date</strong></td>
+<td><strong>Comments</strong></td>
+</tr>
+<tr class="even">
+<td>1.0.0</td>
+<td>09/02/2014</td>
+<td>Initial version of Preliminary Project Management Plan.</td>
+</tr>
+<tr class="odd">
+<td>1.1.0</td>
+<td>09/04/2014</td>
+<td>Updated project plan formatting to conform to template and edited content sections for structure.</td>
+</tr>
+<tr class="even">
+<td>1.1.1</td>
+<td>09/04/2014</td>
+<td>Formatted sentence structures in §1.1.1, §1.1.2, §2.3 for clarity.</td>
+</tr>
+<tr class="odd">
+<td>1.1.2</td>
+<td>09/04/2014</td>
+<td>Revised placeholders for printing.</td>
+</tr>
+<tr class="even">
+<td>1.1.3</td>
+<td>09/08/2014</td>
+<td>Filled in §2.2.1, §2.4.1, §3, §4.2, §4.3</td>
+</tr>
+<tr class="odd">
+<td>1.1.4</td>
+<td>10/1/2014</td>
+<td><p>Added ToC</p>
+<p>Updated §1.2, §2.4.1,§5.2</p></td>
+</tr>
+<tr class="even">
+<td>1.2</td>
+<td>10/16/2014</td>
+<td>Updated §1.2, §2.4.1,§5.2</td>
+</tr>
+<tr class="odd">
+<td>1.3</td>
+<td>12/01/2014</td>
+<td><p>Updated §1.2, §2.4.1,§5.2</p>
+<p>Final Check</p></td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Table of Contents</strong></p>
+
+<p><a href="#_Toc404690735">1. Introduction 5</a></p>
+
+<p><a href="#project-overview">1.1 Project Overview 5</a></p>
+
+<p><a href="#project-background">1.1.1 Project Background 5</a></p>
+
+<p><a href="#project-goals">1.1.2 Project Goals 5</a></p>
+
+<p><a href="#deliverables">1.2 Deliverables 6</a></p>
+
+<p><a href="#document-evolution">1.3 Document Evolution 6</a></p>
+
+<p><a href="#references">1.4 References 7</a></p>
+
+<p><a href="#definitions-acronyms-abbreviations">1.5 Definitions, Acronyms, Abbreviations 7</a></p>
+
+<p><a href="#project-organization">2. Project Organization 8</a></p>
+
+<p><a href="#process-model">2.1 Process Model 8</a></p>
+
+<p><a href="#organizational-structure">2.2 Organizational Structure 8</a></p>
+
+<p><a href="#team-organization">2.2.1 Team Organization 8</a></p>
+
+<p><a href="#organizational-boundaries-and-interfaces">2.3 Organizational Boundaries and Interfaces 10</a></p>
+
+<p><a href="#project-responsibilities">2.4 Project Responsibilities 11</a></p>
+
+<p><a href="#phase-1-team-roles-and-responsibilities">2.4.1 Phase 1 Team Roles and Responsibilities 11</a></p>
+
+<p><a href="#managerial-process">3. Managerial Process 13</a></p>
+
+<p><a href="#management-objectives-and-priorities">3.1 Management Objectives and Priorities 13</a></p>
+
+<p><a href="#assumptions-dependencies-and-constraints">3.2 Assumptions, Dependencies and Constraints 13</a></p>
+
+<p><a href="#assumptions">3.2.1 Assumptions 13</a></p>
+
+<p><a href="#dependencies">3.2.2 Dependencies 13</a></p>
+
+<p><a href="#constraints">3.2.3 Constraints 14</a></p>
+
+<p><a href="#risk-management">3.3 Risk Management 14</a></p>
+
+<p><a href="#monitoring-and-controlling-mechanisms">3.4 Monitoring and Controlling Mechanisms 16</a></p>
+
+<p><a href="#technical-process">4. Technical Process 18</a></p>
+
+<p><a href="#methods-tools-and-techniques">4.1 Methods, Tools and Techniques 18</a></p>
+
+<p><a href="#software-documentation">4.2 Software Documentation 19</a></p>
+
+<p><a href="#project-support-functions">4.3 Project Support Functions 19</a></p>
+
+<p><a href="#work-elements-schedule-and-budget">5. Work Elements, Schedule and Budget 20</a></p>
+
+<p><a href="#work-elements">5.1 Work Elements 20</a></p>
+
+<p><a href="#schedule">5.2 Schedule 20</a></p>
+
+<p><a href="#budget">5.3 Budget 22</a></p>
+
+<h2 id="1-introduction">1. Introduction</h2>
+
+<h2 id="11-project-overview">1.1 Project Overview</h2>
+
+<h2 id="111-project-background">1.1.1 Project Background</h2>
+
+<blockquote>
+  <p>As people get older they tend to experience difficulties in either cognitive or sensory function. These difficulties can turn an independent and free-spirited person’s life into a continuous set of daily challenges. Assistive technology processes sensory data to provide meaningful information to the user. Today’s assistive technologies (known as aids) are expensive, trivial and bulky. Persons who have multiple difficulties require multiple devices. There is a growing need for advanced assistive technologies that are easy to use and convenient for the user. The solution is the use of a device many people already own: the smartphone. Smartphone-based aids do more than traditional assistive devices. For example, a hearing aid should recognize speech to create a visual image. A speaking aid should generate speech from visual data. Finally, a memory aid should produce visual queues based on a variety of input.</p>
+</blockquote>
+
+<p>###</p>
+
+<h2 id="112-project-goals">1.1.2 Project Goals</h2>
+
+<blockquote>
+  <p>Team Total Recall’s Project Goal is <strong><em>to create an AAC application, running on an Android mobile device that is capable of enhancing a user’s communication abilities who is suffering from stage 3 dementia.</em></strong></p>
+</blockquote>
+
+<p>###</p>
+
+<p>###</p>
+
+<h2 id="12-deliverables">1.2 Deliverables</h2>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p><strong>Phase</strong></p>
+<p><strong>No.</strong></p></td>
+<td><p><strong>Phase</strong></p>
+<p><strong>Name</strong></p></td>
+<td><strong>Deliverables</strong></td>
+<td><p><strong>Internal Review</strong></p>
+<p><strong>Date</strong></p></td>
+<td><p><strong>Delivery</strong></p>
+<p><strong>Date</strong></p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><em>Initial</em></td>
+<td><ol type="1">
+<li><p>Preliminary PMP</p></li>
+</ol></td>
+<td>09/03/2014</td>
+<td>09/04/2014</td>
+</tr>
+<tr class="odd">
+<td><strong>1</strong></td>
+<td><em>Interim</em></td>
+<td><ol type="1">
+<li><p>Evolving PMP</p></li>
+<li><p>Evolving WRS</p></li>
+<li><p>Evolving PPT</p></li>
+<li><p>Prototype Mock-ups</p></li>
+</ol></td>
+<td>09/29/2014</td>
+<td>09/30/2014</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><em>Final</em></td>
+<td><ol type="1">
+<li><p>Evolving PMP</p></li>
+<li><p>Evolving WRS</p></li>
+<li><p>Evolving PPT</p></li>
+<li><p>Evolving UM</p></li>
+<li><p>Preliminary Prototype Mockups</p></li>
+</ol></td>
+<td>10/15/2014</td>
+<td>10/16/2014</td>
+</tr>
+<tr class="odd">
+<td><strong>2</strong></td>
+<td><em>Interim</em></td>
+<td><ol type="1">
+<li><p>Evolving PMP</p></li>
+<li><p>Evolving WRS</p></li>
+<li><p>Evolving Process Specification Document</p></li>
+<li><p>Evolving Vision Document</p></li>
+<li><p>Appendix - Glossary</p></li>
+<li><p>Appendix - References</p></li>
+</ol></td>
+<td>10/17/2014</td>
+<td>11/11/2014</td>
+</tr>
+<tr class="even">
+<td><strong>2</strong></td>
+<td><em>Final</em></td>
+<td><ol type="1">
+<li><p>Final PMP</p></li>
+<li><p>Final WRS</p></li>
+<li><p>Final Vision Document</p></li>
+<li><p>Final Process Specification</p></li>
+<li><p>Final User Manual</p></li>
+<li><p>Final Prototype</p></li>
+<li><p>Final Presentation</p></li>
+<li><p>Final Appendix</p></li>
+</ol></td>
+<td>11/12/2014</td>
+<td>12/02/2014</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="13-document-evolution">1.3 Document Evolution</h2>
+
+<blockquote>
+  <p>This is a living document that is updated periodically. The document will be updated in response to feedback from the review process defined in the managerial processes (§3.4.1). This document is to be managed solely in the Google Drive repository established for the team. When changes are made the changes must be documented in the revision history table found at the beginning of this document. Changes must be dated, versioned, described and stamped with the team member who made the changes. The current version is specified on the bottom right of the document on all pages.</p>
+
+  <p>The versioning system used by the revision history table conforms to the semantic versioning scheme. The version numbers are indicated as a three decimal numerical in the form of “X.Y.Z”. All X, Y and Z are integers in the range zero to nine inclusive. Where X represents the major version, Y represents the minor version and Z represents patches. Major versions are incremented when the minor version number is exhausted by reaching nine and resetting to zero. Minor versions are incremented when content is added or removed. Patch versions are indicated when sentence structure changes are made but no content is added or removed.</p>
+</blockquote>
+
+<h2 id="14-references">1.4 References</h2>
+
+<p>Please see the document <strong>References</strong> in the Appendix.</p>
+
+<h2 id="15-definitions-acronyms-abbreviations">1.5 Definitions, Acronyms, Abbreviations</h2>
+
+<blockquote>
+  <p>Please see the document <strong>Glossary</strong> in the Appendix.</p>
+</blockquote>
+
+<h2 id="2-project-organization">2. Project Organization</h2>
+
+<h2 id="21-process-model">2.1 Process Model</h2>
+
+<blockquote>
+  <p>The organization will be employing the Spiral Mode. Due to the emphasis on requirements analysis and negotiation, this model serves the organizational requirement of close client collaboration well.</p>
+</blockquote>
+
+<h2 id="22-organizational-structure">2.2 Organizational Structure</h2>
+
+<blockquote>
+  <p>The organizational structure of three teams and 4 team members each. The project leader is not directly part of a team, but will form a fourth pseudo group that involves the other team leaders. This pseudo team is in place to encourage high cohesion amongst management elements for more effective work unit scheduling.</p>
+</blockquote>
+
+<h2 id="221-team-organization">2.2.1 Team Organization</h2>
+
+<p><strong><em>Phase 1 - Interim</em></strong></p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p><strong>Team</strong></p>
+<p><strong>No.</strong></p></td>
+<td><p><strong>Team</strong></p>
+<p><strong>Members</strong></p></td>
+</tr>
+<tr class="even">
+<td><em><strong>-</strong></em></td>
+<td><blockquote>
+<p>1. Andrew Pohlmann (Phase Lead)</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><em><strong>1</strong></em></td>
+<td><ol type="1">
+<li><blockquote>
+<p>Michael Raibick (Team Lead)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Ryan Chen</p>
+</blockquote></li>
+<li><blockquote>
+<p>Travis Chun</p>
+</blockquote></li>
+<li><blockquote>
+<p>Oscar Reyes</p>
+</blockquote></li>
+</ol></td>
+</tr>
+<tr class="even">
+<td><em><strong>2</strong></em></td>
+<td><ol type="1">
+<li><blockquote>
+<p>Michael Muggler (Team Lead)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Bennilyn Quek</p>
+</blockquote></li>
+<li><blockquote>
+<p>Desmond Lee</p>
+</blockquote></li>
+<li><blockquote>
+<p>Robert Lockwood</p>
+</blockquote></li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td><em><strong>3</strong></em></td>
+<td><ol type="1">
+<li><blockquote>
+<p>Blessing Osakue (Team Lead)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Joe Brown</p>
+</blockquote></li>
+<li><blockquote>
+<p>James Williams</p>
+</blockquote></li>
+<li><blockquote>
+<p>Giuseppe Mastrolorenzo</p>
+</blockquote></li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+  <p><strong><em>Phase 1 - Final</em></strong></p>
+</blockquote>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p><strong>Team</strong></p>
+<p><strong>No.</strong></p></td>
+<td><p><strong>Team</strong></p>
+<p><strong>Members</strong></p></td>
+</tr>
+<tr class="even">
+<td><em><strong>-</strong></em></td>
+<td><blockquote>
+<p>1. Michael Raibick (Phase Lead)</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><em><strong>1</strong></em></td>
+<td><ol type="1">
+<li><p>Andrew Pohlmann (Team Lead)</p></li>
+<li><p>Michael Muggler</p></li>
+<li><p>James Williams</p></li>
+</ol></td>
+</tr>
+<tr class="even">
+<td><em><strong>2</strong></em></td>
+<td><ol type="1">
+<li><p>Michael Raibick (Team Lead)</p></li>
+<li><p>Joe Brown</p></li>
+<li><p>Desmond Lee</p></li>
+<li><p>Oscar Reyes</p></li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td><em><strong>3</strong></em></td>
+<td><ol type="1">
+<li><p>Bennilyn Quek (Team Lead)</p></li>
+<li><p>Blessing Osakue</p></li>
+<li><p>Ryan Chen</p></li>
+<li><p>Robert Lockwood</p></li>
+<li><p>Giuseppe Mastrolorenzo</p></li>
+<li><p>Travis Chun</p></li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+  <p><strong><em>Phase 2 - Interim</em></strong></p>
+</blockquote>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p><strong>Team</strong></p>
+<p><strong>No.</strong></p></td>
+<td><p><strong>Team</strong></p>
+<p><strong>Members</strong></p></td>
+</tr>
+<tr class="even">
+<td><em><strong>-</strong></em></td>
+<td><ol type="1">
+<li><p>Bennilyn Quek (Phase Lead)</p></li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td><em><strong>1</strong></em></td>
+<td><ol type="1">
+<li><p>Andrew Pohlmann (Team Lead)</p></li>
+<li><p>Michael Muggler</p></li>
+<li><p>James Williams</p></li>
+</ol></td>
+</tr>
+<tr class="even">
+<td><em><strong>2</strong></em></td>
+<td><ol type="1">
+<li><p>Desmond Lee (Team Lead)</p></li>
+<li><p>Joe Brown</p></li>
+<li><p>Michael Raibick</p></li>
+<li><p>Oscar Reyes</p></li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td><em><strong>3</strong></em></td>
+<td><ol type="1">
+<li><p>Ryan Chen (Team Lead)</p></li>
+<li><p>Blessing Osakue</p></li>
+<li><p>Michael Raibick</p></li>
+<li><p>Robert Lockwood</p></li>
+<li><p>Giuseppe Mastrolorenzo</p></li>
+<li><p>Travis Chun</p></li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+  <p><strong><em>Phase 2 - Final</em></strong></p>
+</blockquote>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p><strong>Team</strong></p>
+<p><strong>No.</strong></p></td>
+<td><p><strong>Team</strong></p>
+<p><strong>Members</strong></p></td>
+</tr>
+<tr class="even">
+<td><em><strong>-</strong></em></td>
+<td><ol type="1">
+<li><p>James Williams (Phase Lead)</p></li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td><em><strong>1</strong></em></td>
+<td><ol type="1">
+<li><p>Joe Brown (Team Lead)</p></li>
+<li><p>Michael Muggler</p></li>
+<li><p>Bennilyn Quek</p></li>
+</ol></td>
+</tr>
+<tr class="even">
+<td><em><strong>2</strong></em></td>
+<td><ol type="1">
+<li><p>Michael Raibick (Team Lead)</p></li>
+<li><p>Andrew Pohlmann</p></li>
+<li><p>Desmond Lee</p></li>
+<li><p>Oscar Reyes</p></li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td><em><strong>3</strong></em></td>
+<td><ol type="1">
+<li><p>Ryan Chen (Team Lead)</p></li>
+<li><p>Blessing Osakue</p></li>
+<li><p>Michael Raibick</p></li>
+<li><p>Robert Lockwood</p></li>
+<li><p>Giuseppe Mastrolorenzo</p></li>
+<li><p>Travis Chun</p></li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="23-organizational-boundaries-and-interfaces">2.3 Organizational Boundaries and Interfaces</h2>
+
+<blockquote>
+  <p>Each team is intended to function as a self-contained entity that can complete its work units independently of other teams. Team leaders will function as interfaces to the project leader in management meetings for progress reviews and new workload assignments. If necessary, team leaders will also coordinate with other team leaders and the project leader for the purposes of synchronizing content production toward an aggregated work unit. The project leader is not directly part of a team, but will work closely with all team leaders for workflow synchronization purposes and clarification of project vision and direction. The project leader will also function as a liaison as necessary between all teams in the event that more precise communication is necessary.</p>
+</blockquote>
+
+<h2 id="24-project-responsibilities">2.4 Project Responsibilities</h2>
+
+<h2 id="241-phase-1-team-roles-and-responsibilities">2.4.1 Phase 1 Team Roles and Responsibilities</h2>
+
+<p><em>Phase 1 - Interim</em></p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><strong>Team</strong></td>
+<td><strong>Role</strong></td>
+<td><strong>Responsibilities</strong></td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>Requirements Engineering</td>
+<td><ol type="1">
+<li><blockquote>
+<p>Exploration of Domain, Stakeholder, Functional, Non-Functional Objectives.</p>
+</blockquote></li>
+<li><blockquote>
+<p>Update WRS.</p>
+</blockquote></li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>Requirements Engineering</td>
+<td><ol type="1">
+<li><blockquote>
+<p>Exploration of Non-Functional Requirements</p>
+</blockquote></li>
+<li><blockquote>
+<p>Update WRS.</p>
+</blockquote></li>
+<li><blockquote>
+<p>Generate preliminary Prototype.</p>
+</blockquote></li>
+</ol></td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Requirements Engineering</td>
+<td><ol type="1">
+<li><blockquote>
+<p>Exploration of Functional Requirements</p>
+</blockquote></li>
+<li><blockquote>
+<p>Update WRS.</p>
+</blockquote></li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td>MG</td>
+<td>Management</td>
+<td><ol type="1">
+<li><blockquote>
+<p>Update PMP.</p>
+</blockquote></li>
+<li><blockquote>
+<p>Generate preliminary PPT.</p>
+</blockquote></li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+
+<p><em>Phase 1 - Final</em></p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><strong>Team</strong></td>
+<td><strong>Role</strong></td>
+<td><strong>Responsibilities</strong></td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>Requirements Engineering</td>
+<td><ol type="1">
+<li><blockquote>
+<p>Create system specifications.</p>
+</blockquote></li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>System Design</td>
+<td><ol type="1">
+<li><blockquote>
+<p>Create UI of the front-end</p>
+</blockquote></li>
+</ol></td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Documentation</td>
+<td><ol type="1">
+<li><blockquote>
+<p>Generate the Initial User Manual</p>
+</blockquote></li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td>MG</td>
+<td>Management</td>
+<td><ol type="1">
+<li><blockquote>
+<p>Update PMP, PP</p>
+</blockquote></li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="242-phase-2-team-roles-and-responsibilities">2.4.2 Phase 2 Team Roles and Responsibilities</h3>
+
+<p><em>Phase 2 - Interim</em></p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><strong>Team</strong></td>
+<td><strong>Role</strong></td>
+<td><strong>Responsibilities</strong></td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>System Design / Development</td>
+<td><ol type="1">
+<li><p>Developing System Architecture</p></li>
+<li><p>Implement the System</p></li>
+<li><p>Generate Product Diagrams.</p></li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>System Design / Development / Documentation.</td>
+<td><ol type="1">
+<li><p>Develop System UI</p></li>
+<li><p>Implement the System</p></li>
+</ol></td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Documentation</td>
+<td><ol type="1">
+<li><p>Develop User Manual</p></li>
+<li><p>Develop Appendix</p></li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td>MG</td>
+<td>Management</td>
+<td><ol start="3" type="1">
+<li><p>Develop Evolving Vision Document</p></li>
+<li><p>Develop Appendix</p></li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+
+<p><em>Phase 2 - Final</em></p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><strong>Team</strong></td>
+<td><strong>Role</strong></td>
+<td><strong>Responsibilities</strong></td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>System Development / Documentation.</td>
+<td><ol type="1">
+<li><p>Finalize Prototype</p></li>
+<li><p>Finalize WRS.</p></li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>System Development / Documentation.</td>
+<td><ol type="1">
+<li><p>Finalize Prototype</p></li>
+<li><p>Finalize all Product and Process Diagrams</p></li>
+</ol></td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Documentation.</td>
+<td><ol type="1">
+<li><p>Finalize User Manual</p></li>
+<li><p>Finalize Appendix</p></li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td>MG</td>
+<td>Management</td>
+<td><ol type="1">
+<li><p>Finalize PMP</p></li>
+<li><p>Finalize Vision Document</p></li>
+<li><p>Finalize Process Specification Document</p></li>
+<li><p>Finalize PPT</p></li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="3-managerial-process">3. Managerial Process</h2>
+
+<h2 id="31-management-objectives-and-priorities">3.1 Management Objectives and Priorities</h2>
+
+<ol>
+  <li>
+    <blockquote>
+      <p>Accountability: Ensuring that weekly work unit deadlines are met.</p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>Accuracy: Ensuring that work units are traceable to end-phase deliverables requirements.</p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>Efficiency: Ensuring that no excessive or redundant work is performed.</p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>Quality Assurance: Ensuring that all work units completed are free of defects.</p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p>Communication: Ensuring low latency communication between and within teams.</p>
+    </blockquote>
+  </li>
+</ol>
+
+<h2 id="32-assumptions-dependencies-and-constraints">3.2 Assumptions, Dependencies and Constraints</h2>
+
+<h2 id="321-assumptions">3.2.1 Assumptions</h2>
+
+<ol>
+  <li>
+    <p>Team members will be cognizant of project schedule deadlines.</p>
+  </li>
+  <li>
+    <p>Team members will stay healthy and remain physically capable of carrying out assigned duties.</p>
+  </li>
+  <li>
+    <p>Team members will respond to communications from other team members in a timely fashion.</p>
+  </li>
+  <li>
+    <p>Team members remain motivated through the duration of the project.</p>
+  </li>
+  <li>
+    <p>Team members will always have access to the necessary tools to complete their assigned work units.</p>
+  </li>
+  <li>
+    <p>The group will not lose any team members.</p>
+  </li>
+</ol>
+
+<h2 id="322-dependencies">3.2.2 Dependencies</h2>
+
+<ol>
+  <li>
+    <p>Management will effectively communicate the project goals.</p>
+  </li>
+  <li>
+    <p>Communication mechanisms to maintain low latency communications in the organizational structure</p>
+  </li>
+  <li>
+    <p>Management being effective at maintaining linear progression of progress.</p>
+  </li>
+  <li>
+    <p>Team members not procrastinating and delaying assigned work units.</p>
+  </li>
+</ol>
+
+<h2 id="323-constraints">3.2.3 Constraints</h2>
+
+<ol>
+  <li>
+    <p>Personal schedule conflicts between team members.</p>
+  </li>
+  <li>
+    <p>Personal lives of team members.</p>
+  </li>
+</ol>
+
+<h2 id="33-risk-management">3.3 Risk Management</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Risk</strong></td>
+      <td><strong>Impact</strong></td>
+      <td><strong>Mitigation</strong></td>
+    </tr>
+    <tr>
+      <td>Inaccurate Estimations about project costs, scheduling, and time to complete</td>
+      <td>These bad estimates can end up sinking a project into a sea of budget overruns, delayed deliverables, and wasted effort that can potentially end up in a cancellation of a project.</td>
+      <td>Apply crash techniques to speed up under-performing work units. Work overtime to ensure that work units get completed on time. Modify the schedule as necessary to apply more man hours to work units that are behind.</td>
+    </tr>
+    <tr>
+      <td>Bad Requirements Gathering</td>
+      <td>Bad requirements gathering in a project ensures that the resulting software architecture will not be compliant with what the client truly needs. This situation is sometimes not seen until later in the project and, when discovered, can lead to critical faults that threaten the success of the project.</td>
+      <td>Hire a requirements engineer to elicit the proper set of requirements from the client.</td>
+    </tr>
+    <tr>
+      <td>Executing Behind Schedule</td>
+      <td>Executing behind schedule virtually assures missing deadlines, wasting project resources, and provoking negative client feedback. The worst case of this scenario is that the client cancels the project.</td>
+      <td>We have taken a multifaceted approach in expecting and mitigating the risks of running behind schedule. Ample time has been set aside to collaborate with the customer on creating a detailed list of specifications and expectations with the project. Time has been set aside to review the project at regular intervals with the customer and additional time has been set aside to handle possible changes or issues brought up during these meetings. The project is internally scheduled to complete early so schedule setbacks don’t push us beyond the hard deadline. A change management system is in place to reduce the impact of changes. We believe these mitigations will be sufficient to handle most high-probability or high-impact scheduling situations that may arise.</td>
+    </tr>
+    <tr>
+      <td>Unforeseen Technical Complexity</td>
+      <td>Unforeseen technical complexity could introduce delays in implementation of the program, or even worse uncover flaws in the requirements.</td>
+      <td>Our project manager and developers will ask some questions during specification-gathering to ensure common sources of technical complexity are covered early. Integrations with third party systems, for example using Active Directory to handle user management, need to be identified during the specification phase. Change requests relating to third party integrations after the completion of the design phase will be denied unless an agreed-upon amount of time can be added to the five-month deadline.</td>
+    </tr>
+    <tr>
+      <td>Data Loss</td>
+      <td>Data loss can easily derail current project progress and make blown deadlines a guaranteed reality. Man-hours spent backtracking and redoing work units could easily lead to serious delays in the schedule and trigger another risk scenario “Executing behind schedule.” Regeneration of the lost data could also produce inaccurate or incorrect work that could cause future problems.</td>
+      <td>Backup database nightly, have a slave database ready at a different location.</td>
+    </tr>
+    <tr>
+      <td>Scope Changes</td>
+      <td>Scope changes can cause serious changes in the functional and non-functional requirements of the program. Scope changes almost always impact scheduled tasks and work-units because of the refactoring of the scope into all phases of the development process.</td>
+      <td>Expand timeline to accommodate additions or reject additions depending upon contract restrictions, feasibility, meetings with the customer, etc.</td>
+    </tr>
+    <tr>
+      <td>User Interface Usability Issues</td>
+      <td>The client may find the program difficult to use and then issue new requirements to “simplify” program operation. The client may not see the program as fulfilling its requirements and refuse payment of services.</td>
+      <td>We will make use of tools such as UserTesting.com to ensure our application is easy to use and follows today’s best practices for user interface design.</td>
+    </tr>
+    <tr>
+      <td>Personnel Loss</td>
+      <td>Project work units could be delayed. Other team members may become strained from having to take on the extra work from the departing employee. The project even may suffer schedule delays if management cannot replace the lost manpower.</td>
+      <td>Hire a qualified replacement, divide work between remaining employees while replacement is located.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>###</p>
+
+<h2 id="34-monitoring-and-controlling-mechanisms">3.4 Monitoring and Controlling Mechanisms</h2>
+
+<blockquote>
+  <p>Living Announcement and Meeting Agenda documents will be constantly updated on Google Drive as a means to support project vision and maintain schedule work unit deadlines.</p>
+
+  <p>Doodle will be used to schedule team member meetings.</p>
+
+  <p>Glassboard will be used as a group collaboration platform.</p>
+
+  <p>Github will be used for version control for all code.</p>
+</blockquote>
+
+<p>###</p>
+
+<p>###</p>
+
+<p>###</p>
+
+<p>###</p>
+
+<h2 id="4-technical-process">4. Technical Process</h2>
+
+<p>##</p>
+
+<h2 id="41-methods-tools-and-techniques">4.1 Methods, Tools and Techniques</h2>
+
+<blockquote>
+  <p>The following methods, tools and techniques will be used:</p>
+</blockquote>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><strong>Method</strong></td>
+<td><strong>Tool</strong></td>
+<td><strong>Technique(s)</strong></td>
+</tr>
+<tr class="even">
+<td>Communication</td>
+<td><p>Email</p>
+<p>Doodle Glassboard</p></td>
+<td>Emails are used for direct communication between group members. Doodle will be used to schedule team member meetings. Glassboard will be used as a group collaboration device.</td>
+</tr>
+<tr class="odd">
+<td>Storage</td>
+<td>Google Drive</td>
+<td>Any document pertaining to a deliverable must be stored on the team accessible Google Drive share folder. Including any preliminary or draft documents. All documents must be shared with the entire team.</td>
+</tr>
+<tr class="even">
+<td>Version Control</td>
+<td>Github</td>
+<td>Github will be the primary tool for storing the codebase, documenting changes and typing the code documentation. The user manual is to be stored in the Google Drive. The Github repository is exclusively for code and code related materials.</td>
+</tr>
+<tr class="odd">
+<td>Documentation</td>
+<td><p>Astah UML Editor</p>
+<p>RE Tools</p>
+<p>Star UML</p></td>
+<td>Any documentation pertaining to the software must be done in Astah, Star, or RE Tools and submitted in the Google Drive. Do not place UML files under version control.</td>
+</tr>
+<tr class="even">
+<td>Visual Editing</td>
+<td><p>MS Paint</p>
+<p>Visio</p></td>
+<td>Prototype Mockups and graphics will be drawn using these tool.</td>
+</tr>
+<tr class="odd">
+<td>System Development</td>
+<td><p>Ionic</p>
+<p>JavaScript</p>
+<p>HTML5</p>
+<p>CSS5</p></td>
+<td>System development will be done using the Ionic SDK platform, which uses JavaScript, HTML5, and CSS5 to create mobile applications.</td>
+</tr>
+</tbody>
+</table>
+
+<p>###</p>
+
+<h2 id="42-software-documentation">4.2 Software Documentation</h2>
+
+<blockquote>
+  <p>The software architecture will be documented with UML using Astah, Star, and RE Tools diagrams. A user manual will be created for the application that shows graphical images to demonstrate how to use the system.</p>
+</blockquote>
+
+<h2 id="43-project-support-functions">4.3 Project Support Functions</h2>
+
+<blockquote>
+  <p>Living Announcement and Meeting Agenda documents will be constantly updated on Google Drive as a means to support project vision and maintain schedule work unit deadlines. Doodle will be used to schedule team member meetings. Glassboard will be used as a group collaboration device. Github will be used for version control for all code.</p>
+</blockquote>
+
+<h2 id="5-work-elements-schedule-and-budget">5. Work Elements, Schedule and Budget</h2>
+
+<p>##</p>
+
+<h2 id="51-work-elements">5.1 Work Elements</h2>
+
+<ol>
+  <li>
+    <p>Project Management Plan</p>
+  </li>
+  <li>
+    <p>WRS</p>
+  </li>
+  <li>
+    <p>Process Specification</p>
+  </li>
+  <li>
+    <p>Product Specification (Vision)</p>
+  </li>
+  <li>
+    <p>Prototype</p>
+  </li>
+  <li>
+    <p>User Manual</p>
+  </li>
+  <li>
+    <p>PowerPoint Presentation</p>
+  </li>
+  <li>
+    <p>Appendix</p>
+  </li>
+</ol>
+
+<h2 id="52-schedule">5.2 Schedule</h2>
+
+<p><strong>Phase 1 Interim</strong></p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><strong>Deliverable(s)</strong></td>
+<td><p><strong>Team</strong></p>
+<p><strong>Assignments</strong></p></td>
+<td><strong>Assign Date</strong></td>
+<td><strong>Internal Due Date</strong></td>
+<td><strong>Official Due Date</strong></td>
+</tr>
+<tr class="even">
+<td><ol type="1">
+<li><p>Evolving WRS</p></li>
+</ol></td>
+<td><p><strong>RE Team 1:</strong> WRS §2.1</p>
+<p><strong>RE Team 2:</strong> WRS §2.3</p>
+<p><strong>RE Team 3:</strong> WRS §2.2</p></td>
+<td>09/8/14</td>
+<td><strong>09/14/14</strong></td>
+<td>09/30/14</td>
+</tr>
+<tr class="odd">
+<td><ol type="1">
+<li><p>Evolving WRS</p></li>
+</ol></td>
+<td><p><strong>RE Team 1:</strong> §3.1</p>
+<p><strong>RE Team 2:</strong> §2.3</p>
+<p><strong>RE Team 3:</strong> §2.2</p></td>
+<td>09/15/14</td>
+<td><strong>09/21/14</strong></td>
+<td>09/30/14</td>
+</tr>
+<tr class="even">
+<td><ol type="1">
+<li><p>Evolving PPT</p></li>
+</ol></td>
+<td><strong>RE Team 1:</strong> Traceability</td>
+<td>09/22/14</td>
+<td><strong>09/28/14</strong></td>
+<td>09/30/14</td>
+</tr>
+<tr class="odd">
+<td><ol type="1">
+<li><p>Evolving WRS</p></li>
+</ol></td>
+<td><strong>RE Team 3:</strong> §3.2</td>
+<td>09/22/14</td>
+<td><strong>09/28/14</strong></td>
+<td>09/30/14</td>
+</tr>
+<tr class="even">
+<td><ol type="1">
+<li><p>Evolving WRS</p></li>
+</ol></td>
+<td><strong>RE Team 2:</strong> §3.1</td>
+<td>09/22/14</td>
+<td><strong>09/28/14</strong></td>
+<td>09/30/14</td>
+</tr>
+<tr class="odd">
+<td><ol type="1">
+<li><p>All Deliverables</p></li>
+</ol></td>
+<td><strong>Management</strong></td>
+<td>09/29/14</td>
+<td><strong>09/29/14</strong></td>
+<td>09/30/14</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Phase I Final (Due 10/16/2014)</strong></p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><strong>Deliverable(s)</strong></td>
+<td><p><strong>Team</strong></p>
+<p><strong>Assignments</strong></p></td>
+<td><strong>Assign Date</strong></td>
+<td><strong>Internal Due Date</strong></td>
+<td><strong>Official Due Date</strong></td>
+</tr>
+<tr class="even">
+<td><ol type="1">
+<li><p>Evolving WRS</p></li>
+</ol></td>
+<td><p><strong>Architecture Team:</strong></p>
+<ol type="1">
+<li><p>Develop System Specifications</p></li>
+</ol></td>
+<td>10/01</td>
+<td><strong>10/8</strong></td>
+<td>10/16</td>
+</tr>
+<tr class="odd">
+<td><ol type="1">
+<li><p>Evolving Prototype</p></li>
+</ol></td>
+<td><p><strong>UI/UX Team</strong></p>
+<ol type="1">
+<li><p>Develop prototype wireframes from specifications.</p></li>
+</ol></td>
+<td>10/09</td>
+<td><strong>10/13</strong></td>
+<td>10/16</td>
+</tr>
+<tr class="even">
+<td><ol type="1">
+<li><p>Evolving User Manual</p></li>
+</ol></td>
+<td><p><strong>UM/Testing Team</strong></p>
+<ol type="1">
+<li><p>Develop user manual.</p></li>
+</ol></td>
+<td>10/11</td>
+<td><strong>10/14</strong></td>
+<td>10/16</td>
+</tr>
+<tr class="odd">
+<td><ol type="1">
+<li><p>Evolving PMP</p></li>
+<li><p>Evolving PP</p></li>
+</ol></td>
+<td><p><strong>Management</strong></p>
+<ol type="1">
+<li><p>Update PMP, PP</p></li>
+</ol></td>
+<td>10/15</td>
+<td><strong>10/15</strong></td>
+<td>10/16</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Phase 2 Interim (Due 11/11/2014)</strong></p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><strong>Deliverable(s)</strong></td>
+<td><p><strong>Team</strong></p>
+<p><strong>Assignments</strong></p></td>
+<td><strong>Assign Date</strong></td>
+<td><strong>Internal Due Date</strong></td>
+<td><strong>Official Due Date</strong></td>
+</tr>
+<tr class="even">
+<td><ol type="1">
+<li><p>Evolving Prototype</p></li>
+</ol></td>
+<td><p><strong>UI/UX Team</strong>:</p>
+<ol type="1">
+<li><p>Develop System UI</p></li>
+<li><p>Generate Appendix.</p></li>
+</ol></td>
+<td>10/16</td>
+<td><strong>10/25</strong></td>
+<td>11/11</td>
+</tr>
+<tr class="odd">
+<td><ol type="1">
+<li><p>Evolving Prototype</p></li>
+</ol></td>
+<td><p><strong>Architecture Team:</strong></p>
+<ol type="1">
+<li><p>Develop System Architecture</p></li>
+<li><p>Implement the System.</p></li>
+<li><p>Generate Diagrams.</p></li>
+</ol></td>
+<td>10/16</td>
+<td><strong>10/25</strong></td>
+<td>11/11</td>
+</tr>
+<tr class="even">
+<td><ol type="1">
+<li><p>Evolving User Manual</p></li>
+</ol></td>
+<td><p><strong>UM/Testing Team</strong></p>
+<ol type="1">
+<li><p>Develop User Manual</p></li>
+</ol></td>
+<td>10/16</td>
+<td><strong>10/25</strong></td>
+<td>11/11</td>
+</tr>
+<tr class="odd">
+<td><ol type="1">
+<li><p>Evolving Prototype</p></li>
+</ol></td>
+<td><p><strong>UI/UX + Architecture Team</strong></p>
+<ol type="1">
+<li><p>Develop Prototype</p></li>
+</ol></td>
+<td>10/27</td>
+<td><strong>11/10</strong></td>
+<td>11/11</td>
+</tr>
+<tr class="even">
+<td><ol type="1">
+<li><p>Evolving Vision Document</p></li>
+</ol></td>
+<td><p><strong>UM/Testing:</strong></p>
+<ol type="1">
+<li><p>Develop Vision Document</p></li>
+</ol></td>
+<td>10/27</td>
+<td><strong>11/10</strong></td>
+<td>11/11</td>
+</tr>
+<tr class="odd">
+<td><ol type="1">
+<li><p>All Deliverables</p></li>
+</ol></td>
+<td><strong>Management</strong></td>
+<td>11/10</td>
+<td><strong>11/10</strong></td>
+<td>11/11</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Phase 2 Final (Due 12/05/2014)</strong></p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><strong>Deliverable(s)</strong></td>
+<td><p><strong>Team</strong></p>
+<p><strong>Assignments</strong></p></td>
+<td><strong>Assign Date</strong></td>
+<td><strong>Internal Due Date</strong></td>
+<td><strong>Official Due Date</strong></td>
+</tr>
+<tr class="even">
+<td><ol type="1">
+<li><p>Evolving Prototype</p></li>
+</ol></td>
+<td><p><strong>Architecture Team</strong></p>
+<ol type="1">
+<li><p>Finalize prototype.</p></li>
+<li><p>Finalize Diagrams.</p></li>
+</ol></td>
+<td>11/12</td>
+<td><strong>11/15</strong></td>
+<td>12/05</td>
+</tr>
+<tr class="odd">
+<td><ol type="1">
+<li><p>Evolving User Manual</p></li>
+</ol></td>
+<td><p><strong>UM/Testing:</strong></p>
+<ol type="1">
+<li><p>Finalize User Manual</p></li>
+</ol></td>
+<td>11/12</td>
+<td><strong>11/15</strong></td>
+<td>12/05</td>
+</tr>
+<tr class="even">
+<td><ol type="1">
+<li><p>Evolving Vision Document</p></li>
+</ol></td>
+<td><p><strong>UI/UX</strong></p>
+<ol type="1">
+<li><p>Finalize Vision Document.</p></li>
+</ol></td>
+<td>11/12</td>
+<td><strong>11/15</strong></td>
+<td>12/05</td>
+</tr>
+<tr class="odd">
+<td><ol type="1">
+<li><p>Appendix</p></li>
+</ol></td>
+<td><p><strong>UM/Testing:</strong></p>
+<ol type="1">
+<li><p>Finalize Appendix</p></li>
+</ol></td>
+<td>11/16</td>
+<td><strong>12/01</strong></td>
+<td>12/05</td>
+</tr>
+<tr class="even">
+<td><ol type="1">
+<li><p>Process Specification Document</p></li>
+</ol></td>
+<td><p><strong>Management</strong></p>
+<ol type="1">
+<li><p>Finalize Process Specification</p></li>
+</ol></td>
+<td>11/16</td>
+<td><strong>12/01</strong></td>
+<td>12/05</td>
+</tr>
+<tr class="odd">
+<td>All Deliverables</td>
+<td>Management</td>
+<td>12/02</td>
+<td><strong>12/05</strong></td>
+<td>12/05</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="53-budget">5.3 Budget</h2>
+
+<p>No budget is allotted for this project.</p>
+
+  </div><a class="u-url" href="/blog/2020/07/30/Project-Management-Plan.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/blog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/blog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>An easy to use blogging platform with support for Jupyter Notebooks.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/MikeOwino" title="MikeOwino"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/mikeeowino" title="mikeeowino"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

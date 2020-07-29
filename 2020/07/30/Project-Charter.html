@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Project Charter | MikeOwino Blog</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Project Charter" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="For instructions on using this template, please see Notes to Author/Template Instructions on page 17. Notes on accessibility: This template has been tested and is best accessible with JAWS 11.0 or higher. For questions about using this template, please contact CMS IT Governance. To request changes to the template, please submit an XLC Process Change Request (CR)." />
+<meta property="og:description" content="For instructions on using this template, please see Notes to Author/Template Instructions on page 17. Notes on accessibility: This template has been tested and is best accessible with JAWS 11.0 or higher. For questions about using this template, please contact CMS IT Governance. To request changes to the template, please submit an XLC Process Change Request (CR)." />
+<link rel="canonical" href="https://mikeowino.com/blog/2020/07/30/Project-Charter.html" />
+<meta property="og:url" content="https://mikeowino.com/blog/2020/07/30/Project-Charter.html" />
+<meta property="og:site_name" content="MikeOwino Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-07-30T00:00:00-05:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://mikeowino.com/blog/2020/07/30/Project-Charter.html"},"description":"For instructions on using this template, please see Notes to Author/Template Instructions on page 17. Notes on accessibility: This template has been tested and is best accessible with JAWS 11.0 or higher. For questions about using this template, please contact CMS IT Governance. To request changes to the template, please submit an XLC Process Change Request (CR).","@type":"BlogPosting","url":"https://mikeowino.com/blog/2020/07/30/Project-Charter.html","headline":"Project Charter","dateModified":"2020-07-30T00:00:00-05:00","datePublished":"2020-07-30T00:00:00-05:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://mikeowino.com/blog/feed.xml" title="MikeOwino Blog" /><!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-57531313-5','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+<link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Project Charter | MikeOwino Blog</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Project Charter" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="For instructions on using this template, please see Notes to Author/Template Instructions on page 17. Notes on accessibility: This template has been tested and is best accessible with JAWS 11.0 or higher. For questions about using this template, please contact CMS IT Governance. To request changes to the template, please submit an XLC Process Change Request (CR)." />
+<meta property="og:description" content="For instructions on using this template, please see Notes to Author/Template Instructions on page 17. Notes on accessibility: This template has been tested and is best accessible with JAWS 11.0 or higher. For questions about using this template, please contact CMS IT Governance. To request changes to the template, please submit an XLC Process Change Request (CR)." />
+<link rel="canonical" href="https://mikeowino.com/blog/2020/07/30/Project-Charter.html" />
+<meta property="og:url" content="https://mikeowino.com/blog/2020/07/30/Project-Charter.html" />
+<meta property="og:site_name" content="MikeOwino Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-07-30T00:00:00-05:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://mikeowino.com/blog/2020/07/30/Project-Charter.html"},"description":"For instructions on using this template, please see Notes to Author/Template Instructions on page 17. Notes on accessibility: This template has been tested and is best accessible with JAWS 11.0 or higher. For questions about using this template, please contact CMS IT Governance. To request changes to the template, please submit an XLC Process Change Request (CR).","@type":"BlogPosting","url":"https://mikeowino.com/blog/2020/07/30/Project-Charter.html","headline":"Project Charter","dateModified":"2020-07-30T00:00:00-05:00","datePublished":"2020-07-30T00:00:00-05:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://mikeowino.com/blog/feed.xml" title="MikeOwino Blog" /><!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-57531313-5','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">MikeOwino Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/about/">About Me</a><a class="page-link" href="/blog/search/">Search</a><a class="page-link" href="/blog/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Project Charter</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-07-30T00:00:00-05:00" itemprop="datePublished">
+        Jul 30, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      14 min read
+    
+</span></p>
+
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><em>For instructions on using this template, please see Notes to Author/Template Instructions on page</em> <em>17. Notes on accessibility: This template has been tested and is best accessible with JAWS 11.0 or higher. For questions about using this template, please contact <a href="mailto:IT_Governance@cms.hhs.gov">CMS IT Governance</a>. To request changes to the template, please submit an <a href="https://www.cms.gov/Research-Statistics-Data-and-Systems/CMS-Information-Technology/XLC/Downloads/XLCProcessChangeRequestCR.docx">XLC Process Change Request</a> (CR).</em></p>
+
+<table>
+<caption>CMS Logo</caption>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><p>Centers for Medicare &amp; Medicaid Services</p>
+<p>CMS eXpedited Life Cycle (XLC)</p></td>
+</tr>
+</tbody>
+</table>
+
+<p>&lt;Project Name / Acronym&gt;</p>
+
+<p>Project Charter</p>
+
+<p>Version X.X</p>
+
+<p>MM/DD/YYYY</p>
+
+<p><strong>Document Number:</strong> &lt;document’s configuration item control number&gt;</p>
+
+<p><strong>Contract Number:</strong> &lt;current contract number of company maintaining document&gt;</p>
+
+<p>Table of Contents</p>
+
+<p><a href="#_Toc395773762">1. Introduction 1</a></p>
+
+<p><a href="#project-and-product-overview">1.1 Project and Product Overview 1</a></p>
+
+<p><a href="#purpose-of-project-charter">1.2 Purpose of Project Charter 1</a></p>
+
+<p><a href="#justification">2. Justification 1</a></p>
+
+<p><a href="#business-need">2.1 Business Need 1</a></p>
+
+<p><a href="#business-impact">2.2 Business Impact 1</a></p>
+
+<p><a href="#strategic-alignment">2.3 Strategic Alignment 2</a></p>
+
+<p><a href="#scope">3. Scope 3</a></p>
+
+<p><a href="#objectives">3.1 Objectives 3</a></p>
+
+<p><a href="#high-level-requirements">3.2 High-Level Requirements 3</a></p>
+
+<p><a href="#major-deliverables">3.3 Major Deliverables 3</a></p>
+
+<p><a href="#boundaries">3.4 Boundaries 4</a></p>
+
+<p><a href="#project-organization">4. Project Organization 4</a></p>
+
+<p><a href="#roles-and-responsibilities">4.1 Roles and Responsibilities 4</a></p>
+
+<p><a href="#stakeholders">4.2 Stakeholders 8</a></p>
+
+<p><a href="#duration">5. Duration 9</a></p>
+
+<p><a href="#timeline">5.1 Timeline 9</a></p>
+
+<p><a href="#milestones">5.2 Milestones 9</a></p>
+
+<p><a href="#budget-estimate">6. Budget Estimate 9</a></p>
+
+<p><a href="#funding-source">6.1 Funding Source 9</a></p>
+
+<p><a href="#estimate">6.2 Estimate 9</a></p>
+
+<p><a href="#assumptions-constraints-and-risks">7. Assumptions, Constraints and Risks 10</a></p>
+
+<p><a href="#assumptions">7.1 Assumptions 10</a></p>
+
+<p><a href="#constraints">7.2 Constraints 10</a></p>
+
+<p><a href="#risks">7.3 Risks 10</a></p>
+
+<p><a href="#_Toc395081362">Appendix A: Record of Changes 12</a></p>
+
+<p><a href="#_Toc395081363">Appendix B: Acronyms 13</a></p>
+
+<p><a href="#_Toc363205557">Appendix C: Glossary 14</a></p>
+
+<p><a href="#_Toc363205558">Appendix D: Referenced Documents 15</a></p>
+
+<p><a href="#_Toc363205561">Appendix E: Approvals 16</a></p>
+
+<p><a href="#_Toc363205562">Appendix F: Notes to the Author / Template Instructions 17</a></p>
+
+<p><a href="#_Toc395081368">Appendix G: XLC Template Revision History 18</a></p>
+
+<p><a href="#_Toc395081369">Appendix H: Additional Appendices 19</a></p>
+
+<p>List of Figures</p>
+
+<p><a href="#_Toc395773323">Figure 1: Example of a High-Level Timeline 12</a></p>
+
+<p>List of Tables</p>
+
+<p><a href="#_Toc395773324">Table 1: Strategic Alignment 5</a></p>
+
+<p><a href="#_Toc395773325">Table 2: High-Level Requirements 6</a></p>
+
+<p><a href="#_Toc395773326">Table 3: Major Deliverables 6</a></p>
+
+<p><a href="#_Toc395773327">Table 4: Roles and Responsibilities 7</a></p>
+
+<p><a href="#_Toc395773328">Table 5: Milestones 12</a></p>
+
+<p><a href="#_Toc395773329">Table 6: Risks 14</a></p>
+
+<p><a href="#_Toc391640582">Table 7: Record of Changes 15</a></p>
+
+<p><a href="#_Toc391640583">Table 8: Acronyms 16</a></p>
+
+<p><a href="#_Toc391640584">Table 9: Glossary 17</a></p>
+
+<p><a href="#_Toc391640585">Table 10: Referenced Documents 18</a></p>
+
+<p><a href="#_Toc391640586">Table 11: XLC Template Revision History 21</a></p>
+
+<p>#</p>
+
+<h1 id="introduction">Introduction</h1>
+
+<h2 id="project-and-product-overview">Project and Product Overview</h2>
+
+<p>Instructions: Provide an overview of the project background, and a high-level description of what the project entails. Typically, the description should answer who, what, when and where, in a concise manner. It should also state the estimated project duration (e.g., 18 months) and the estimated project budget (e.g., $1.5M). For example:</p>
+
+<p>ABC Corporation has been experiencing substantial backlogs in their new claim requests based upon their antiquated processing system. They have contracted with &lt;Contractor’s Name&gt; to create a robust processing system. The purpose of this project is to create a system to more effectively handle ABC’s claims and decrease the turn-around time for each claim by 2 hours. The project entails the analysis, development, testing, implementation, and maintenance of the new claims processing system, as well as subsequent training of the ABC staff. It should take 18 months to complete and cost $1.5M.</p>
+
+<h2 id="purpose-of-project-charter">Purpose of Project Charter</h2>
+
+<p>Instructions: Provide the purpose of the project charter.</p>
+
+<p>The &lt;Project Name&gt; project charter formally authorizes a project, describes the business need for the project and the product to be created by the project. It provides the project manager with the authority to apply up to a certain level of organizational resources to project activities. It is created during the Initiating Phase of the project.</p>
+
+<p>The intended audience of the &lt;Project Name&gt; project charter is the Business Sponsor and Critical Partners.</p>
+
+<h1 id="justification">Justification</h1>
+
+<h2 id="business-need">Business Need</h2>
+
+<p>Instructions: This section of the Project Charter explains why the customers need this project to be completed. It identifies the customers who are to receive and benefit from the product(s) to be developed under this project. It identifies the need, the problem to be solved and/or the opportunity to exploit.</p>
+
+<h2 id="business-impact">Business Impact</h2>
+
+<p>Instructions: In this section you should list the benefits the business and/or customers will receive as a result of this project. Describe the observable and measurable outcomes that will result directly from the project’s performance. Please note that performance measures will be crafted in future deliverables related to these targeted outcomes.</p>
+
+<h2 id="strategic-alignment">Strategic Alignment</h2>
+
+<p>Instructions: Please complete the table below:</p>
+
+<p><span id="_Toc395773324" class="anchor"></span>Table : Strategic Alignment</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Organization/Strategic Goals</th>
+      <th>Project Response Rank (H – High, M – Medium, L – Low)</th>
+      <th>Comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>CMS Strategic Goals</td>
+      <td>Project Response Rank (H – High, M – Medium, L – Low)</td>
+      <td>Comments</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Department of Health and Human Services (DHHS) Strategic Goals</td>
+      <td>Project Response Rank (H – High, M – Medium, L – Low)</td>
+      <td>Comments</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>DHHS IT Goals</td>
+      <td>Project Response Rank (H – High, M – Medium, L – Low)</td>
+      <td>Comments</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>President’s Management Agenda (PMA) Strategic Goals</td>
+      <td>Project Response Rank (H – High, M – Medium, L – Low)</td>
+      <td>Comments</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="scope">Scope</h1>
+
+<h2 id="objectives">Objectives</h2>
+
+<p>The objectives of the &lt;Project Name&gt; are as follows:</p>
+
+<ul>
+  <li>
+    <p>Insert Objective 1</p>
+  </li>
+  <li>
+    <p>Insert Objective 2</p>
+  </li>
+  <li>
+    <p>Add additional bullets as necessary</p>
+  </li>
+</ul>
+
+<h2 id="high-level-requirements">High-Level Requirements</h2>
+
+<p>The following table presents the requirements that the project’s product, service or result must meet in order for the project objectives to be satisfied.</p>
+
+<p><span id="_Toc395773325" class="anchor"></span>Table : High-Level Requirements</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Requirement #</th>
+      <th>Requirement Definition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="major-deliverables">Major Deliverables</h2>
+
+<p>The following table presents the major deliverables that the project’s product, service or result must meet in order for the project objectives to be satisfied.</p>
+
+<p><span id="_Toc395773326" class="anchor"></span>Table : Major Deliverables</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Deliverable</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="boundaries">Boundaries</h2>
+
+<p>Instructions: Describe the inclusive and exclusive boundaries of the project. Specifically address items that are out of scope.</p>
+
+<h1 id="project-organization">Project Organization</h1>
+
+<h2 id="roles-and-responsibilities">Roles and Responsibilities</h2>
+
+<p>Instructions: Depending on your project organization, you may modify the roles and responsibilities listed in the table below.</p>
+
+<p><span id="_Toc395773327" class="anchor"></span>Table : Roles and Responsibilities</p>
+
+<table>
+<thead>
+<tr class="header">
+<th>Name &amp; Organization</th>
+<th>Project Role</th>
+<th>Project Responsibilities</th>
+<th>Estimated % of Effort</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>&lt;Insert Name and Organization Here&gt;</td>
+<td>&lt;Business Owner&gt;</td>
+<td>&lt;Person responsible for acting as the project’s champion and providing direction and support to the team. In the context of this document, this person approves the request for funding, approves the project scope represented in this document, and sets the priority of the project relative to other projects in his/her area of responsibility. &gt;</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>&lt;Insert Name and Organization Here&gt;</td>
+<td>&lt;Contracting Officer&gt;</td>
+<td>&lt;Person who has the authority to enter into, terminate, or change a contractual agreement on behalf of the Government. This person bears the legal responsibility for the contract.&gt;</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>&lt;Insert Name and Organization Here&gt;</td>
+<td>&lt;Project Officer /Contracting Officer Technical Representative&gt;</td>
+<td>&lt;A program representative responsible for coordinating with acquisition officials on projects for which contract support is contemplated. This representative is responsible for technical monitoring and evaluation of the contractor's performance after award. &gt;</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>&lt;Insert Name and Organization Here&gt;</td>
+<td>&lt;Project Manager (This could include a Contractor Project Manager or an FTE Project Manager) &gt;</td>
+<td>&lt;Person who performs the day-to-day management of the project and has specific accountability for managing the project within the approved constraints of scope, quality, time and cost, to deliver the specified requirements, deliverables and customer satisfaction. The Project Manager chairs the integrated project team. &gt;</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>&lt;Insert Name and Organization Here&gt;</td>
+<td>&lt;Business Representative&gt;</td>
+<td>&lt;Business subject matter expert who has adequate knowledge of the business and project to make informed decisions on behalf of the Business Sponsor on certain matters. &gt;</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>&lt;Insert Name and Organization Here&gt;</td>
+<td>&lt;Technical Representative&gt;</td>
+<td>&lt;Person who is responsible for the technical day-to-day aspects of the system including the details of system development. The Technical Representative is responsible for providing technical direction to the project. &gt;</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p>&lt;Name&gt;</p>
+<p>&lt;Org&gt;</p></td>
+<td>&lt;Capital Planning and Investment Control (CPIC) Representative&gt;</td>
+<td>&lt;Member of the integrated project team responsible for coordinating Critical Partners and insuring that the investment complies with CPIC policy and procedures. This person is also responsible for ensuring that the investment is performing according to HHS IT governance standards. &gt;</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p>&lt;Name&gt;</p>
+<p>&lt;Org&gt;</p></td>
+<td>&lt;Enterprise Architecture (EA) Critical Partner&gt;</td>
+<td>&lt;Member of the integrated project team responsible for ensuring that the investment aligns with both the OPDIV and Department’s overall Target EA and Transition Strategy and complies with EA initiatives and requirements. &gt;</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p>&lt;Name&gt;</p>
+<p>&lt;Org&gt;</p></td>
+<td>&lt;Performance Critical Partner&gt;</td>
+<td>&lt;Member of the integrated project team in management who is responsible for the project’s overall performance. This person must ensure that the investment is accomplishing the business objectives and meeting business needs. &gt;</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p>&lt;Name&gt;</p>
+<p>&lt;Org&gt;</p></td>
+<td>&lt;Acquisition Critical Partner&gt;</td>
+<td>&lt;Member of the integrated project team responsible for representing acquisition interests and ensuring that the project is in compliance with HHS acquisition policy, procedures, and requirements. &gt;</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p>&lt;Name&gt;</p>
+<p>&lt;Org&gt;</p></td>
+<td>&lt;Security Critical Partner&gt;</td>
+<td>&lt;Member of the integrated project team responsible for representing information security interests and ensuring that the project is in compliance with HHS information security policy, procedures, and requirements. &gt;</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p>&lt;Name&gt;</p>
+<p>&lt;Org&gt;</p></td>
+<td>&lt;Section 508 Critical Partner&gt;</td>
+<td>&lt;Member of the integrated project team responsible for representing Section 508 interests and ensuring that the project is in compliance with Section 508 requirements.&gt;</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p>&lt;Name&gt;</p>
+<p>&lt;Org&gt;</p></td>
+<td>&lt;Budget Critical Partner&gt;</td>
+<td>&lt;Member of the integrated project team that is responsible for determining if there are adequate financial resources available.&gt;</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p>&lt;Name&gt;</p>
+<p>&lt;Org&gt;</p></td>
+<td>&lt;Human Resources Critical Partner&gt;</td>
+<td>&lt;Member of the integrated project team responsible for representing Human Resources interests and ensuring that the investment is incompliance with Human Resource policy, procedures, and requirements. &gt;</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="stakeholders">Stakeholders</h2>
+
+<p><em>Instructions: A stakeholder is a person or organization that is actively involved in the project, or whose interests may be positively or negatively affected by execution or completion of the project. A stakeholder may also exert influence over the project and its deliverables.</em></p>
+
+<h1 id="duration">Duration</h1>
+
+<h2 id="timeline">Timeline</h2>
+
+<p>*Instructions: An example of a high-level timeline is provided below.<br />
+*</p>
+
+<p><span id="_Toc395773323" class="anchor"></span>Figure : Example of a High-Level Timeline</p>
+
+<h2 id="milestones">Milestones</h2>
+
+<p>The table below lists the high-level Executive Milestones of the project and their estimated completion timeframe.</p>
+
+<p><span id="_Toc395773328" class="anchor"></span>Table : Milestones</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Milestones</th>
+      <th>Estimated Completion Timeframe</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="budget-estimate">Budget Estimate</h1>
+
+<h2 id="funding-source">Funding Source</h2>
+
+<p><em>Instructions: Identify the funding amount, source of authorization, and method of finance approved for the project.</em></p>
+
+<p>As of &lt;Month Day, Year&gt;, &lt;source of authorization (e.g., the CMS Information Technology Investment Review Board (ITIRB)&gt; approved the use of &lt;$funding amount&gt; from &lt;funding source&gt; for this project.</p>
+
+<h2 id="estimate">Estimate</h2>
+
+<p>This section provides a summary of estimated spending to meet the objectives of the <em>&lt;&lt;Project Name&gt;&gt;</em> project as described in this project charter. This summary of spending is preliminary, and should reflect costs for the entire investment lifecycle. It is intended to present probable funding requirements and to assist in obtaining budgeting support.</p>
+
+<p><em>Instructions: For projects associated with a major/tactical investment as defined by HHS OCIO there should be a line of sight between the budget presented here and the investment’s Exhibit 300. Double click on the Microsoft Excel Object table below to input values.</em></p>
+
+<p><img src="https://mikeowino.com/blog/assets/img/2020-07-30-Project-Charter/media/image2.emf" alt="" /><em>Instructions: PY in the excel spreadsheet stands for Past Year. CY stands for current year. BY stands for budget year.</em></p>
+
+<ul>
+  <li>*</li>
+</ul>
+
+<h1 id="assumptions-constraints-and-risks">Assumptions, Constraints and Risks</h1>
+
+<h2 id="assumptions">Assumptions</h2>
+
+<p>This section identifies the statements believed to be true and from which a conclusion was drawn to define this project charter.</p>
+
+<ul>
+  <li>
+    <p>Insert description of the first assumption.</p>
+  </li>
+  <li>
+    <p>Insert description of the second assumption.</p>
+  </li>
+  <li>
+    <p>Add additional bullets as necessary</p>
+  </li>
+</ul>
+
+<h2 id="constraints">Constraints</h2>
+
+<p>This section identifies any limitation that must be taken into consideration prior to the initiation of the project.</p>
+
+<ul>
+  <li>
+    <p>Insert description of the first constraint.</p>
+  </li>
+  <li>
+    <p>Insert description of the second constraint.</p>
+  </li>
+  <li>
+    <p>Add additional bullets as necessary</p>
+  </li>
+</ul>
+
+<h2 id="risks">Risks</h2>
+
+<p><em>Instructions: List the risks that the Business Owner should be aware of before making a decision on funding the project, including risks of not funding the project.</em></p>
+
+<p>The table below presents the known risks which could have a major impact on the outcome of the project and associated mitigation strategy that the business owner/project team will take to manage them.</p>
+
+<p><span id="_Toc395773329" class="anchor"></span>Table : Risks</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Risk</th>
+      <th>Mitigation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<ol>
+  <li><span id="_Toc395081362" class="anchor"></span>Record of Changes</li>
+</ol>
+
+<p><em>Instructions: Provide information on how the development and distribution of the</em> <em>Project Charter will be controlled and tracked. Use the table below to provide the version number, the date of the version, the author/owner of the version, and a brief description of the reason for creating the revised version.</em></p>
+
+<p><span id="_Toc391640582" class="anchor"></span>Table : Record of Changes</p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>Version</p>
+<p>Number</p></td>
+<td>Date</td>
+<td>Author/Owner</td>
+<td>Description of Change</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<ol>
+  <li><span id="_Toc395081363" class="anchor"></span>Acronyms</li>
+</ol>
+
+<p>Instructions: Provide a list of acronyms and associated literal translations used within the document. List the acronyms in alphabetical order using a tabular format as depicted below.</p>
+
+<p><span id="_Toc391640583" class="anchor"></span>Table : Acronyms</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Acronym</td>
+      <td>Literal Translation</td>
+    </tr>
+    <tr>
+      <td><strong>CMS</strong></td>
+      <td>Centers for Medicare &amp; Medicaid Services</td>
+    </tr>
+    <tr>
+      <td><strong>PMP</strong></td>
+      <td>Project Management Plan</td>
+    </tr>
+    <tr>
+      <td><strong>PPA</strong></td>
+      <td>Project Process Agreement</td>
+    </tr>
+    <tr>
+      <td><strong>WBS</strong></td>
+      <td>Work Breakdown Structure</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<ol>
+  <li><span id="_Toc363205557" class="anchor"></span>Glossary</li>
+</ol>
+
+<p>Instructions: Provide clear and concise definitions for terms used in this document that may be unfamiliar to readers of the document. Terms are to be listed in alphabetical order.</p>
+
+<p><span id="_Toc391640584" class="anchor"></span>Table : Glossary</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Term</td>
+      <td>Definition</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<ol>
+  <li><span id="_Toc363205558" class="anchor"></span>Referenced Documents</li>
+</ol>
+
+<p>Instructions: Summarize the relationship of this document to other relevant documents. Provide identifying information for all documents used to arrive at and/or referenced within this document (e.g., related and/or companion documents, prerequisite documents, relevant technical documentation, etc.).</p>
+
+<p><span id="_Toc391640585" class="anchor"></span>Table : Referenced Documents</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Document Name</th>
+      <th>Document Location and/or URL</th>
+      <th>Issuance Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<ol>
+  <li><span id="_Toc363205561" class="anchor"></span>Approvals</li>
+</ol>
+
+<p>The undersigned acknowledge that they have reviewed the Project Charter and agree with the information presented within this document. Changes to this Project Charter will be coordinated with, and approved by, the undersigned, or their designated representatives.</p>
+
+<p><em>Instructions: List the individuals whose signatures are desired. Examples of such individuals are Business Owner, Project Manager (if identified), and any appropriate stakeholders. Add additional lines for signature as necessary.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Signature:</th>
+      <th> </th>
+      <th>Date:</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Print Name:</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Title:</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Role:</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Signature:</th>
+      <th> </th>
+      <th>Date:</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Print Name:</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Title:</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Role:</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Signature:</th>
+      <th> </th>
+      <th>Date:</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Print Name:</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Title:</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Role:</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<ol>
+  <li><span id="_Toc363205562" class="anchor"></span>Notes to the Author / Template Instructions</li>
+</ol>
+
+<p>This document is a template for creating a Project Charter for a given investment or project. The final document should be delivered in an electronically searchable format. The Project Charter should stand on its own with all elements explained and acronyms spelled out for reader/reviewers, including reviewers outside CMS who may not be familiar with CMS projects and investments.</p>
+
+<p>This template includes instructions, boilerplate text, and fields. The developer should note that:</p>
+
+<ul>
+  <li>
+    <p><em>Each section provides instructions or describes the intent, assumptions, and context for content included in that section. Instructional text appears in blue italicized font throughout this template.</em></p>
+  </li>
+  <li>
+    <p><em>Instructional text in each section should be replaced with information specific to the particular investment.</em></p>
+  </li>
+</ul>
+
+<!-- end list -->
+
+<ul>
+  <li><em>Some text and tables are provided as boilerplate examples of wording and formats that may be used or modified as appropriate.</em></li>
+</ul>
+
+<p>When using this template, follow these steps:</p>
+
+<ol>
+  <li>
+    <p><em>Table captions and descriptions are to be placed centered, above the table.</em></p>
+  </li>
+  <li>
+    <p><em>Modify any boilerplate text, as appropriate, to your specific investment.</em></p>
+  </li>
+  <li>
+    <p><em>Do not delete any headings. If the heading is not applicable to the investment, enter “Not Applicable” under the heading.</em></p>
+  </li>
+  <li>
+    <p><em>All documents must be compliant with Section 508 requirements.</em></p>
+  </li>
+  <li>
+    <p><em>Figure captions and descriptions are to be placed centered, below the figure. All figures must have an associated tag providing appropriate alternative text for Section 508 compliance.</em></p>
+  </li>
+  <li>
+    <p><em>Delete this “Notes to the Author / Template Instructions” page and all instructions to the author before finalizing the initial draft of the document.</em></p>
+  </li>
+</ol>
+
+<!-- end list -->
+
+<ol>
+  <li><span id="_Toc395081368" class="anchor"></span>XLC Template Revision History</li>
+</ol>
+
+<p>The following table records information regarding changes made to the XLC template over time. This table is for use by the XLC Steering Committee only. To provide information about the controlling and tracking of this artifact, please refer to the Record of Changes section of this document.</p>
+
+<p><span id="_Toc391640586" class="anchor"></span>Table : XLC Template Revision History</p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>Version</p>
+<p>Number</p></td>
+<td>Date</td>
+<td>Author/Owner</td>
+<td>Description of Change</td>
+</tr>
+<tr class="even">
+<td>2.2</td>
+<td>1/2009</td>
+<td>K. Maenner – OIS/EASG/DITPPA</td>
+<td>Removed “IT Governance Review Board Approving Authority” as an approver on Approvals page.</td>
+</tr>
+<tr class="odd">
+<td>3.0</td>
+<td>08/14/2014</td>
+<td>Celia Shaunessy, XLC Steering Committee</td>
+<td>Changes made per <a href="https://share.cms.gov/office/ois/Services/XLCSC/XLCDocs/14-012_GeneralUpdates.docx">CR 14-012</a>.</td>
+</tr>
+<tr class="even">
+<td>3.1</td>
+<td>02/02/2015</td>
+<td><p>Surya Potu,</p>
+<p>CMS/OEI/DPPIG</p></td>
+<td>Updated CMS logo.</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<ol>
+  <li><span id="_Toc395081369" class="anchor"></span>Additional Appendices</li>
+</ol>
+
+<p><em>Instructions: Utilize additional appendices to facilitate ease of use and maintenance of the document.</em></p>
+
+  </div><a class="u-url" href="/blog/2020/07/30/Project-Charter.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/blog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/blog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>An easy to use blogging platform with support for Jupyter Notebooks.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/MikeOwino" title="MikeOwino"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/mikeeowino" title="mikeeowino"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
